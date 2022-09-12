@@ -59,6 +59,7 @@ body, p {
     /*background-color: bisque;*/
     justify-content: center;
     position: fixed;
+    z-index: 10;
 }
 
 #company_logo{
@@ -68,7 +69,7 @@ body, p {
     left: 43px;
     top: 43px;
     cursor: pointer;
-    z-index: 5;
+
     /*background-color: chartreuse;*/
 
 }
@@ -96,16 +97,21 @@ nav ul li a{
 /*    social media pack    */
 /**************************/
 .social_media_pack{
-
+    /*background-color: #5f9d1c;*/
+    width: 5vw;
+    height: 40vh;
+    position: fixed;
+    top: 50vh;
+    margin-left: 3vw;
 }
 .sm-icon-box{
 
     width: 55px;
     height:55px;
     left: 5vw;
+margin: 15px;
 
-
-    position: fixed;
+    position: inherit;
     border-radius: 100%;
    background-color: #052970;
     z-index: 5;
@@ -128,6 +134,7 @@ nav ul li a{
     color: #65F2CE;
     font-size: 2rem;
     text-align: right;
+    text-decoration: none;
 }
 
 
@@ -152,7 +159,7 @@ nav ul li a{
 #welcome-banner{
     /*position: absolute;*/
     /*width: 1075px;*/
-    height: 767px;
+    height: 567px;
     left: 322px;
     top: 156px;
 }
@@ -200,7 +207,7 @@ nav ul li a{
 
     justify-content: center;
 }
-}
+
 
 
 
