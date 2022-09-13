@@ -46,6 +46,12 @@ body, p {
     display: grid;
     place-items: center;
 }
+.fc-blue{
+    color: #001D6D;!important;
+}
+.fc-white{
+    color: white !important;
+}
 /**************************/
 /*    Navbar    */
 /**************************/
@@ -83,16 +89,24 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 0px 20px;
+
+
 }
 nav ul li a{
     text-decoration: none;
-    color: #001D6D !important ;
+    color: #001D6D ;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
 }
+.active_nav{
+    color: #a71d2a;!important;
+    /*background-color: #1e7e34;*/
+
+}
+
 /**************************/
 /*    social media pack    */
 /**************************/
@@ -156,14 +170,15 @@ margin: 15px;
 
     justify-content: center;
 }
-#welcome-banner{
-    /*position: absolute;*/
+.home-banner{
+    position: center;
     /*width: 1075px;*/
-    height: 567px;
+    /*height: 567px;*/
+    width: 80%;
     left: 322px;
     top: 156px;
 }
-.welcome-topic{
+.Home-topic{
     /*position: absolute;*/
     /*width: 283px;*/
     /*height: 116px;*/
@@ -178,24 +193,16 @@ margin: 15px;
     letter-spacing: -0.075em;
 
 
-    color: #001D6D;
+
 }
 .topic-box{
     /*background-color: cadetblue;*/
     margin-left:2vw ;
     /*padding-top: 200px;*/
 }
-
-
-
-
-
-
-
-
-/**************************/
-/*    Services page    */
-/**************************/
+/*========================================================*/
+/*Services Screen*/
+/*========================================================*/
 
 .Serivices{
     background-color: #052970;
@@ -207,6 +214,129 @@ margin: 15px;
 
     justify-content: center;
 }
+.service-icon{
+    /*position: absolute;*/
+    width: 125px;
+    height: 127px;
+    /*left: 233px;*/
+
+}
+.service-list-icon{
+    width: 95px;
+    /*height: 97px;*/
+}
+.service-topic-list{
+    /*position: absolute;*/
+    /*width: 138px;*/
+    /*height: 62px;*/
+    /*left: 977px;*/
+    /*top: 1262px;*/
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-size: 22px;
+    /*line-height: 31px;*/
+    letter-spacing: -0.075em;
+}
+
+/*========================================================*/
+/*AboutUs Screen*/
+/*========================================================*/
+.aboutUs-p{
+    margin-top: 25px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: justify;
+    letter-spacing: -0.02em;
+}
+
+/*========================================================*/
+/*Clients Screen*/
+/*========================================================*/
+
+
+.Clients{
+    background-color: #052970;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+
+/*========================================================*/
+/*Contacts Screen*/
+/*========================================================*/
+.Contacts{
+    background-color: #052970;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.red{
+    color:red;
+}
+.form-area {
+    /* From https://css.glass */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    border-radius: 20px;
+    padding: 10px 40px 60px;
+    margin: 10px 0px 60px;
+}
+
+.btn-submit{
+    color: #001D6D;
+    background-color: #55F9CE;
+    width: 100%;
+}
+.bv-form .help-block {
+    margin-bottom: 0;
+}
+.bv-form .tooltip-inner {
+    text-align: left;
+}
+.nav-tabs li.bv-tab-success > a {
+    color: #3c763d;
+}
+.nav-tabs li.bv-tab-error > a {
+    color: #a94442;
+}
+
+.bv-form .bv-icon-no-label {
+    top: 0;
+}
+
+.bv-form .bv-icon-input-group {
+    top: 0;
+    z-index: 100;
+}
+
+.form-content-box{
+    background-color: unset!important;
+    border:solid white 0.5px ;
+}
+/**************************/
+/*    Services page    */
+/**************************/
 
 
 
