@@ -57,6 +57,9 @@ body, p {
 .fc-white {
     color: white !important;
 }
+.fc-green{
+    color:#55F9CE ;
+}
 .pl-6,
 .px-6 {
     padding-left: 4vw !important;
@@ -68,7 +71,19 @@ body, p {
 /**************************/
 /*    Navbar    */
 /**************************/
-
+.logo-b{
+    background-image: url("../wetransfer_banners_2022-09-12_1034/Icons/logo png-01.png");
+    position: fixed;
+    /*width: 126px;*/
+    height: 190px;
+    left: 43px;
+    top: 43px;
+    cursor: pointer;
+    /*background-color: #a71d2a;*/
+}
+.logo-lb{
+    background-image: url("../wetransfer_banners_2022-09-12_1034/Icons/logo png-01.png");
+}
 .navbar {
     width: 100%;
     height: 10vh;
@@ -81,10 +96,10 @@ body, p {
     z-index: 10;
 }
 
-#company_logo {
+.company_logo {
     position: fixed;
     /*width: 126px;*/
-    height: 190px;
+height: 0;
     left: 43px;
     top: 43px;
     cursor: pointer;
@@ -92,7 +107,9 @@ body, p {
     /*background-color: chartreuse;*/
 
 }
-
+.cl-h{
+    height: 190px;!important;
+}
 nav {
     flex: 1;
     padding-right: 60px;
@@ -109,16 +126,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-
+/*background-color: #a71d2a;*/
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: 500;*/
-    font-size: 18px;
+    font-size: 28px;
     line-height: 22px;
 }
 
 .active_nav {
-    color: #a71d2a;
+    color: #55F9CE;
 !important;
     /*background-color: #1e7e34;*/
 
@@ -476,7 +493,7 @@ nav ul li a {
     background-size: cover;
     background-position:center ;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -492,7 +509,7 @@ nav ul li a {
     background-size: cover;
     background-position:center ;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -508,7 +525,7 @@ nav ul li a {
     background-size: cover;
     background-position:center ;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -523,7 +540,7 @@ nav ul li a {
     background-size: cover;
     background-position:center ;
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -538,7 +555,7 @@ nav ul li a {
     background-size: cover;
     background-position:center ;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -554,7 +571,7 @@ nav ul li a {
     font-size: 7rem;
     line-height: 5rem;
     letter-spacing: -0.075em;
-    text-shadow: 5px 5px 4px rgba(42, 41, 41, 0.71);
+    text-shadow: 5px 5px 4px rgb(3, 14, 35);
 
 
 }
@@ -571,13 +588,14 @@ nav ul li a {
 
 .service-ul-li {
     margin-top: 25px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;!important;
+    font-style: normal;!important;
     /*font-weight: lighter;*/
-    font-size: 2rem;
+    font-size: 2rem;!important;
     /*line-height: 4rem;*/
     text-align: justify;
     letter-spacing: -0.02em;
+    /*list-style-type: none;*/
 }
 /**************************/
 /*    AboutUs page    */
