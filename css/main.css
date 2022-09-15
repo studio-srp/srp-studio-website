@@ -133,6 +133,10 @@ nav ul li a {
     font-size: 28px;
     line-height: 22px;
 }
+nav ul li a:hover{
+    text-decoration: none;
+    color: #55F9CE;!important;
+}
 
 .active_nav {
     color: #55F9CE;
