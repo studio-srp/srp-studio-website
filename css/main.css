@@ -29,6 +29,7 @@ Colors:
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body,
@@ -55,6 +56,13 @@ body, p {
 
 .fc-white {
     color: white !important;
+}
+.pl-6,
+.px-6 {
+    padding-left: 4vw !important;
+}
+.pb-10{
+    padding-bottom: 10vh !important;
 }
 
 /**************************/
@@ -101,7 +109,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #001D6D;
+
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: 500;*/
@@ -117,7 +125,7 @@ nav ul li a {
 }
 
 /**************************/
-/*    social media pack    */
+/*    social media pack- blue    */
 /**************************/
 .social_media_pack {
     /*background-color: #5f9d1c;*/
@@ -133,6 +141,19 @@ nav ul li a {
 
     width: 35px;
     height: 35px;
+    left: 5vw;
+    margin: 3px;
+
+    position: inherit;
+    border-radius: 100%;
+    background-color: #052970;
+    z-index: 5;
+
+}
+.sm-icon-box-footer {
+
+    width: 55px;
+    height: 55px;
     left: 5vw;
     margin: 3px;
 
@@ -166,6 +187,33 @@ nav ul li a {
     text-decoration: none;
 }
 
+.sm-icon-footer {
+    color: #65F2CE;
+    font-size: 2rem;
+    text-align: right;
+    text-decoration: none;
+}
+
+.sm-icon-box-lb {
+
+    width: 35px;
+    height: 35px;
+    left: 5vw;
+    margin: 3px;
+
+    position: inherit;
+    border-radius: 100%;
+    background-color: #65F2CE;
+    z-index: 5;
+
+}
+
+.sm-icon-lb {
+    color: #001D6D;
+    font-size: 1rem;
+    text-align: right;
+    text-decoration: none;
+}
 
 /**************************/
 /*    Home page    */
@@ -239,6 +287,8 @@ nav ul li a {
 .Serivices {
     background-color: #052970;
     background-image: url("../wetransfer_banners_2022-09-12_1034/Banners/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     margin: auto;
@@ -285,8 +335,8 @@ nav ul li a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: lighter;*/
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 2rem;
+    line-height: 2rem;
     text-align: justify;
     letter-spacing: -0.02em;
 }
@@ -414,10 +464,19 @@ nav ul li a {
 /*========================================================*/
 /*Footer*/
 /*========================================================*/
-footer {
-    background-color: #1a0202;
+
+/**************************/
+/*    Services page    */
+/**************************/
+
+.services-section1{
+    /*background-color: #052970;*/
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center ;
     width: 100%;
-    height: 10vh;
+    height: 100vh;
     margin: auto;
     display: flex;
     align-items: center;
@@ -426,11 +485,99 @@ footer {
 }
 
 
-/**************************/
-/*    Services page    */
-/**************************/
+.services-section2{
+    /*background-color: #052970;*/
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-1.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.services-section3{
+    /*background-color: #052970;*/
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-2.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.services-section4{
+    /*background-color: #052970;*/
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-3.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.services-section5{
+    /*background-color: #052970;*/
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-4.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.service-welcome {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 55px;
+    letter-spacing: -0.075em;
 
 
+}
+.Digital-marketing-p {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /*font-weight: lighter;*/
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: justify;
+    letter-spacing: -0.02em;
+}
+
+.service-ul-li {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    /*font-weight: lighter;*/
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: justify;
+    letter-spacing: -0.02em;
+}
 /**************************/
 /*    AboutUs page    */
 /**************************/
@@ -439,7 +586,44 @@ footer {
 /**************************/
 /*    Footer    */
 /**************************/
+.footer {
+    /*background-color: #1a0202;*/
+    width: 100%;
+    /*height: 10vh;*/
+    /*margin: 5rem;*/
+    display: flex;
+    align-items: center;
 
+    justify-content: center;
+    vertical-align: top !important;
+}
+
+
+
+.footer-ul {
+    vertical-align: top;
+    list-style-type: none;
+    padding: 0;
+    /*margin: 0;*/
+    font-size: 2rem;
+    line-height: 4rem !important;
+    letter-spacing: -0.02em;
+    /*margin: 3rem;*/
+
+}
+.copyright{
+    width: 100%;
+    height: 8vh;
+    /*background-color: #5a6268;*/
+}
+
+.footer-company-name{
+    font-size: 2rem;
+}
+.privacy{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
 
 /**************************/
 /*    media queries    */
