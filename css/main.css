@@ -308,7 +308,7 @@ nav ul li a {
 
 .service-list-icon {
     width: 95px;
-    /*height: 97px;*/
+    /*height: 97px;*/margin-right: 3rem ;
 }
 
 .service-topic-list {
@@ -551,9 +551,10 @@ nav ul li a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 5rem;
-    line-height: 55px;
+    font-size: 7rem;
+    line-height: 5rem;
     letter-spacing: -0.075em;
+    text-shadow: 5px 5px 4px rgba(42, 41, 41, 0.71);
 
 
 }
@@ -574,7 +575,7 @@ nav ul li a {
     font-style: normal;
     /*font-weight: lighter;*/
     font-size: 2rem;
-    line-height: 4rem;
+    /*line-height: 4rem;*/
     text-align: justify;
     letter-spacing: -0.02em;
 }
@@ -604,11 +605,12 @@ nav ul li a {
     vertical-align: top;
     list-style-type: none;
     padding: 0;
-    /*margin: 0;*/
-    font-size: 2rem;
-    line-height: 4rem !important;
+
+    font-size: 1.5rem;
+    /*line-height: 4rem !important;*/
     letter-spacing: -0.02em;
     /*margin: 3rem;*/
+    margin-top: 3rem;
 
 }
 .copyright{
@@ -618,11 +620,12 @@ nav ul li a {
 }
 
 .footer-company-name{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .privacy{
     font-size: 1.5rem;
     margin-top: 1rem;
+    margin-left: 0!important;
 }
 
 /**************************/
