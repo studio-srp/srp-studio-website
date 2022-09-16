@@ -256,17 +256,18 @@ nav ul li a:hover{
     align-items: center;
 
     justify-content: center;
+
 }
 
 .home-banner {
     position: center;
     /*width: 1075px;*/
-    /*height: 567px;*/
+    height: 100%;
     width: 70%;
     /*left: 622px;*/
-    margin-top: 5rem;
-    margin-left: 10rem;
-    top: 156px;
+    /*margin-top: 5rem;*/
+    /*margin-left: 10rem;*/
+    /*top: 156px;*/
 }
 
 .Home-topic {
@@ -312,11 +313,8 @@ nav ul li a:hover{
     background-size: cover;
     width: 100%;
     height: 100vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
+    /*margin: auto;*/
 
-    justify-content: center;
 }
 
 .service-icon {
@@ -382,11 +380,11 @@ nav ul li a:hover{
     background-color: #052970;
     width: 100%;
     height: 100vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
+    /*margin: auto;*/
+    /*display: flex;*/
 
-    justify-content: center;
+
+
 }
 
 .clinets-m-2 {
@@ -610,7 +608,7 @@ nav ul li a:hover{
 
 }
 .bg-img-au{
-    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-2.png");
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
