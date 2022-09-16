@@ -129,7 +129,7 @@ nav ul li a {
 /*background-color: #a71d2a;*/
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    /*font-weight: 500;*/
+    /*font-weight: bold;*/
     font-size: 28px;
     line-height: 22px;
 }
@@ -604,8 +604,34 @@ nav ul li a:hover{
 /**************************/
 /*    AboutUs page    */
 /**************************/
+.aboutUs-banner{
+    /*background-color: #a71d2a;*/
+    /*width: 100%;*/
 
+}
+.bg-img-au{
+    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
 
+.team-img {
+    /*position: absolute;*/
+    /*width: 125px;*/
+    height: 300px;
+    /*left: 233px;*/
+
+}
+.position-box{
+    /*width: 3vh;*/
+    /*height: 3vh;*/
+    background-color: #001D6D;
+    border-radius: 5px;
+}
+.position-career{
+    font-size: inherit;
+}
 /**************************/
 /*    Footer    */
 /**************************/
