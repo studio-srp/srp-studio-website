@@ -75,9 +75,9 @@ body, p {
     background-image: url("../wetransfer_banners_2022-09-12_1034/Icons/logo png-01.png");
     position: fixed;
     /*width: 126px;*/
-    height: 190px;
-    left: 43px;
-    top: 43px;
+    /*height: 190px;*/
+    /*left: 43px;*/
+    /*top: 43px;*/
     cursor: pointer;
     /*background-color: #a71d2a;*/
 }
@@ -99,7 +99,7 @@ body, p {
 .company_logo {
     position: fixed;
     /*width: 126px;*/
-height: 0;
+    height: 0;
     left: 43px;
     top: 43px;
     cursor: pointer;
@@ -108,7 +108,7 @@ height: 0;
 
 }
 .cl-h{
-    height: 190px;!important;
+    height: 10em !important;
 }
 nav {
     flex: 1;
@@ -126,12 +126,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-/*background-color: #a71d2a;*/
+    /*background-color: #a71d2a;*/
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: bold;*/
-    font-size: 28px;
-    line-height: 22px;
+    font-size: 1.5em;
+    line-height: 0.5em;
 }
 nav ul li a:hover{
     text-decoration: none;
@@ -160,10 +160,10 @@ nav ul li a:hover{
 
 .sm-icon-box {
 
-    width: 35px;
-    height: 35px;
-    left: 5vw;
-    margin: 3px;
+    width: 2.5em;
+    height: 2.5em;
+    left: 5em;
+    margin: .3em;
 
     position: inherit;
     border-radius: 100%;
@@ -173,10 +173,10 @@ nav ul li a:hover{
 }
 .sm-icon-box-footer {
 
-    width: 55px;
-    height: 55px;
-    left: 5vw;
-    margin: 3px;
+    width: 2.5em;
+    height: 2.5em;
+    left: 5em;
+    margin: .3em;
 
     position: inherit;
     border-radius: 100%;
@@ -203,24 +203,24 @@ nav ul li a:hover{
 
 .sm-icon {
     color: #65F2CE;
-    font-size: 1rem;
+    font-size: 1.5em;
     text-align: right;
     text-decoration: none;
 }
 
 .sm-icon-footer {
     color: #65F2CE;
-    font-size: 2rem;
+    font-size: 1.5em;
     text-align: right;
     text-decoration: none;
 }
 
 .sm-icon-box-lb {
 
-    width: 35px;
-    height: 35px;
-    left: 5vw;
-    margin: 3px;
+    width: 2.5em;
+    height: 2.5em;
+    left: 5em;
+    margin: .3em;
 
     position: inherit;
     border-radius: 100%;
@@ -231,7 +231,7 @@ nav ul li a:hover{
 
 .sm-icon-lb {
     color: #001D6D;
-    font-size: 1rem;
+    font-size: 1.5em;
     text-align: right;
     text-decoration: none;
 }
@@ -248,14 +248,14 @@ nav ul li a:hover{
 }
 
 .welcome {
-    /*background-color: cadetblue;*/
-    width: 100%;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
+    /*!*background-color: cadetblue;*!*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
+    /*margin: auto;*/
+    /*display: flex;*/
+    /*align-items: center;*/
 
-    justify-content: center;
+    /*justify-content: center;*/
 
 }
 
@@ -280,8 +280,8 @@ nav ul li a:hover{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 7.5rem;
-    line-height: 80px;
+    font-size: 5em;
+    line-height: 0.7em;
     letter-spacing: -0.075em;
     text-shadow: 2px 2px 0px #9a9a9b;
 
@@ -292,7 +292,7 @@ nav ul li a:hover{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: 700;*/
-    font-size: 1.2rem;
+    font-size: 1.2em;
     line-height: 50px;
     letter-spacing: -0.075em;
 }
@@ -312,8 +312,8 @@ nav ul li a:hover{
     background-image: url("../wetransfer_banners_2022-09-12_1034/Banners/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    /*width: 100%;*/
+    /*height: 100vh;*/
     /*margin: auto;*/
 
 }
@@ -342,8 +342,8 @@ nav ul li a:hover{
     font-style: normal;
     font-weight: bold;
     /*font-weight: 400;*/
-    font-size: 42px;
-    line-height: 31px;
+    font-size: 2.5em;
+    line-height: 0.9em;
     letter-spacing: -0.075em;
 }
 
@@ -351,12 +351,12 @@ nav ul li a:hover{
 /*AboutUs Screen*/
 /*========================================================*/
 .aboutUs-p {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: lighter;*/
-    font-size: 1.3rem;
-    line-height: 2rem;
+    font-size: 1.3em;
+    /*line-height: 2rem;*/
     text-align: justify;
     letter-spacing: -0.02em;
 }
@@ -379,8 +379,8 @@ nav ul li a:hover{
 
 .Clients {
     background-color: #052970;
-    width: 100%;
-    height: 100vh;
+    /*width: 100%;*/
+    /*height: 100vh;*/
     /*margin: auto;*/
     /*display: flex;*/
 
@@ -434,7 +434,7 @@ nav ul li a:hover{
     border-radius: 20px;
     padding: 10px 40px 60px;
     margin: 10px 0px 60px;
-    width: 500px;
+    width: 100%;
 }
 
 .btn-submit {
@@ -571,7 +571,7 @@ nav ul li a:hover{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 7rem;
+    font-size: 1.8em;
     line-height: 5rem;
     letter-spacing: -0.075em;
     text-shadow: 5px 5px 4px rgb(3, 14, 35);
@@ -579,22 +579,22 @@ nav ul li a:hover{
 
 }
 .Digital-marketing-p {
-    margin-top: 25px;
+
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     /*font-weight: lighter;*/
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.7em;
+    line-height: 1.5em;
     text-align: justify;
     letter-spacing: -0.02em;
 }
 
 .service-ul-li {
-    margin-top: 25px;
+
     font-family: 'Poppins', sans-serif;!important;
     font-style: normal;!important;
     /*font-weight: lighter;*/
-    font-size: 2rem;!important;
+    font-size: 1.5em;!important;
     /*line-height: 4rem;*/
     text-align: justify;
     letter-spacing: -0.02em;
@@ -618,8 +618,8 @@ nav ul li a:hover{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 5.5rem;
-    line-height: 80px;
+    font-size: 5em;
+    line-height: 2em;
     letter-spacing: -0.075em;
     text-shadow: 2px 2px 0px #9a9a9b;
 
@@ -671,7 +671,7 @@ nav ul li a:hover{
     list-style-type: none;
     padding: 0;
 
-    font-size: 1.5rem;
+    font-size: 1.3em;
     /*line-height: 4rem !important;*/
     letter-spacing: -0.02em;
     /*margin: 3rem;*/
@@ -685,11 +685,11 @@ nav ul li a:hover{
 }
 
 .footer-company-name{
-    font-size: 1.5rem;
+    font-size: 1.3em;
 }
 .privacy{
-    font-size: 1.5rem;
-    margin-top: 1rem;
+    font-size: 1.1em;
+    margin-top: 1em;
     margin-left: 0!important;
 }
 
