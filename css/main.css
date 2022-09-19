@@ -297,11 +297,7 @@ nav ul li a:hover{
     letter-spacing: -0.075em;
 }
 
-.topic-box{
-    /*background-color: cadetblue;*/
-    /*margin-left:3vw ;*/
-    /*padding-top: 200px;*/
-}
+
 
 /*========================================================*/
 /*Services Screen*/
@@ -640,16 +636,17 @@ nav ul li a:hover{
 
 }
 .bg-img-au{
-    background-image: url("../wetransfer_banners_2022-09-12_1034/services-banners/services-banner-1.png");
-    background-repeat: no-repeat;
+    background-image: url("../wetransfer_banners_2022-09-12_1034/Banners/services-banner-5.png");
+    background-repeat:no-repeat ;
     background-size: cover;
-    height:100vh;
+    background-position:center ;
+    /*height:100vh;*/
 }
 
 .team-img {
     /*position: absolute;*/
     /*width: 125px;*/
-    height: 300px;
+    height: 20em;
     /*left: 233px;*/
 
 
