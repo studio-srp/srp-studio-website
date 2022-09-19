@@ -8596,6 +8596,11 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 576px) {
+
+  .pr-sm-8{
+    padding-right: 5em !important;
+    padding-left: 5em !important;
+  }
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -9161,6 +9166,7 @@ button.bg-dark:focus {
   .px-md-5 {
     padding-right: 3rem !important;
   }
+
   .pb-md-5,
   .py-md-5 {
     padding-bottom: 3rem !important;

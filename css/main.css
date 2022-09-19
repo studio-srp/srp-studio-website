@@ -99,8 +99,8 @@ body, p {
 .company_logo {
     position: fixed;
     /*width: 126px;*/
-    height: 0;
-    left: 43px;
+    height: 7em;
+    left: 23px;
     top: 43px;
     cursor: pointer;
 
@@ -108,7 +108,7 @@ body, p {
 
 }
 .cl-h{
-    height: 10em !important;
+    height: 7em !important;
 }
 nav {
     flex: 1;
@@ -263,7 +263,7 @@ nav ul li a:hover{
     position: center;
     /*width: 1075px;*/
     height: 100%;
-    width: 70%;
+    /*width: 70%;*/
     /*left: 622px;*/
     /*margin-top: 5rem;*/
     /*margin-left: 10rem;*/
